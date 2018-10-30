@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name TINY-REFLOW-CONTROLLER-rescue)(type Legacy)(uri ${KIPRJMOD}/TINY-REFLOW-CONTROLLER-rescue.lib)(options "")(descr ""))
+  (lib (name RocketScreamKicadLibrary)(type Legacy)(uri C:/Users/angmcl/Documents/PCBs/RocketScreamKicadLibrary/RocketScreamKicadLibrary.lib)(options "")(descr ""))
+)

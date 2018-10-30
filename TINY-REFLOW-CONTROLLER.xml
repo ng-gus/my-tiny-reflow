@@ -1,0 +1,1070 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Users\angmcl\Documents\PCBs\tiny-reflow-controller\TINY-REFLOW-CONTROLLER.sch</source>
+    <date>26/10/2018 14:47:11</date>
+    <tool>Eeschema (5.0.1)-3</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Tiny Reflow Controller</title>
+        <company>Rocket Scream Electronics</company>
+        <rev>0.20</rev>
+        <date>2017-07-30</date>
+        <source>TINY-REFLOW-CONTROLLER.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="D1">
+      <value>Red</value>
+      <footprint>RocketScreamKicadLibrary:LED_0603</footprint>
+      <libsource lib="TINY-REFLOW-CONTROLLER-rescue" part="LED-SINGLE" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>591D5B22</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>MCP1700T-3302E/MB</value>
+      <footprint>RocketScreamKicadLibrary:SOT-89</footprint>
+      <libsource lib="TINY-REFLOW-CONTROLLER-rescue" part="MCP1700T-XXX2E_MB" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>591D5B92</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>RT0802A</value>
+      <footprint>RocketScreamKicadLibrary:0802A-1-SMT</footprint>
+      <libsource lib="TINY-REFLOW-CONTROLLER-rescue" part="RT0802A" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>591D5C01</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>MAX31856</value>
+      <footprint>RocketScreamKicadLibrary:TSSOP-14</footprint>
+      <libsource lib="TINY-REFLOW-CONTROLLER-rescue" part="MAX31856" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>591D5C71</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>2.54mm 1x6</value>
+      <footprint>RocketScreamKicadLibrary:HDR_1x6_Pitch2.54mm</footprint>
+      <libsource lib="TINY-REFLOW-CONTROLLER-rescue" part="CONN-HDR-1x6" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>591D5CD8</tstamp>
+    </comp>
+    <comp ref="SW2">
+      <value>IT-1109S</value>
+      <footprint>RocketScreamKicadLibrary:IT-1102W</footprint>
+      <libsource lib="TINY-REFLOW-CONTROLLER-rescue" part="TACT-SWITCH_4Pins" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>591D5D6A</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>IT-1109S</value>
+      <footprint>RocketScreamKicadLibrary:IT-1102W</footprint>
+      <libsource lib="TINY-REFLOW-CONTROLLER-rescue" part="TACT-SWITCH_4Pins" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>591D5DE4</tstamp>
+    </comp>
+    <comp ref="SW3">
+      <value>TS-018</value>
+      <footprint>RocketScreamKicadLibrary:TS-018</footprint>
+      <libsource lib="TINY-REFLOW-CONTROLLER-rescue" part="TACT-SWITCH_2Pins" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>591D609B</tstamp>
+    </comp>
+    <comp ref="M1">
+      <value>MOUNT_HOLE</value>
+      <footprint>RocketScreamKicadLibrary:HOLE_NPTH_2.2MM</footprint>
+      <libsource lib="TINY-REFLOW-CONTROLLER-rescue" part="MOUNT_HOLE" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>591D7463</tstamp>
+    </comp>
+    <comp ref="M3">
+      <value>MOUNT_HOLE</value>
+      <footprint>RocketScreamKicadLibrary:HOLE_NPTH_2.2MM</footprint>
+      <libsource lib="TINY-REFLOW-CONTROLLER-rescue" part="MOUNT_HOLE" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>591D75C7</tstamp>
+    </comp>
+    <comp ref="M2">
+      <value>MOUNT_HOLE</value>
+      <footprint>RocketScreamKicadLibrary:HOLE_NPTH_2.2MM</footprint>
+      <libsource lib="TINY-REFLOW-CONTROLLER-rescue" part="MOUNT_HOLE" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>591D7624</tstamp>
+    </comp>
+    <comp ref="M4">
+      <value>MOUNT_HOLE</value>
+      <footprint>RocketScreamKicadLibrary:HOLE_NPTH_2.2MM</footprint>
+      <libsource lib="TINY-REFLOW-CONTROLLER-rescue" part="MOUNT_HOLE" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>591D769C</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>35WR10KLFTR</value>
+      <footprint>RocketScreamKicadLibrary:TC33X-x</footprint>
+      <libsource lib="TINY-REFLOW-CONTROLLER-rescue" part="POTENTIOMETER" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>591D7950</tstamp>
+    </comp>
+    <comp ref="LS1">
+      <value>HYG9605B</value>
+      <footprint>RocketScreamKicadLibrary:HYG9605B</footprint>
+      <libsource lib="TINY-REFLOW-CONTROLLER-rescue" part="BUZZER" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>591D7BE6</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>100R</value>
+      <footprint>RocketScreamKicadLibrary:R_0603</footprint>
+      <libsource lib="TINY-REFLOW-CONTROLLER-rescue" part="RESISTOR" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>591D7D83</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>100R</value>
+      <footprint>RocketScreamKicadLibrary:R_0603</footprint>
+      <libsource lib="TINY-REFLOW-CONTROLLER-rescue" part="RESISTOR" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>591D7E13</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>100nF</value>
+      <footprint>RocketScreamKicadLibrary:C_0603</footprint>
+      <libsource lib="TINY-REFLOW-CONTROLLER-rescue" part="CAPACITOR-CERAMIC" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>591D7EA9</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>10nF</value>
+      <footprint>RocketScreamKicadLibrary:C_0603</footprint>
+      <libsource lib="TINY-REFLOW-CONTROLLER-rescue" part="CAPACITOR-CERAMIC" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>591D7F3B</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>10nF</value>
+      <footprint>RocketScreamKicadLibrary:C_0603</footprint>
+      <libsource lib="TINY-REFLOW-CONTROLLER-rescue" part="CAPACITOR-CERAMIC" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>591D8018</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>2.54mm 2x3</value>
+      <footprint>RocketScreamKicadLibrary:HDR_2x3_Pitch2.54mm</footprint>
+      <libsource lib="TINY-REFLOW-CONTROLLER-rescue" part="CONN-HDR-2x3" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>591D8787</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>1uF 16V X7R</value>
+      <footprint>RocketScreamKicadLibrary:C_0603</footprint>
+      <libsource lib="TINY-REFLOW-CONTROLLER-rescue" part="CAPACITOR-CERAMIC" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>591D8B87</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>1uF 16V X7R</value>
+      <footprint>RocketScreamKicadLibrary:C_0603</footprint>
+      <libsource lib="TINY-REFLOW-CONTROLLER-rescue" part="CAPACITOR-CERAMIC" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>591D8C4C</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>10K</value>
+      <footprint>RocketScreamKicadLibrary:R_0603</footprint>
+      <libsource lib="TINY-REFLOW-CONTROLLER-rescue" part="RESISTOR" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>591D908F</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>10K</value>
+      <footprint>RocketScreamKicadLibrary:R_0603</footprint>
+      <libsource lib="TINY-REFLOW-CONTROLLER-rescue" part="RESISTOR" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>591D9158</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>2N3904</value>
+      <footprint>RocketScreamKicadLibrary:SOT-23</footprint>
+      <libsource lib="TINY-REFLOW-CONTROLLER-rescue" part="BJT-NPN" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>591D91E7</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>2N3904</value>
+      <footprint>RocketScreamKicadLibrary:SOT-23</footprint>
+      <libsource lib="TINY-REFLOW-CONTROLLER-rescue" part="BJT-NPN" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>591D9291</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>2K2</value>
+      <footprint>RocketScreamKicadLibrary:R_0603</footprint>
+      <libsource lib="TINY-REFLOW-CONTROLLER-rescue" part="RESISTOR" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>591DAED2</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>27K</value>
+      <footprint>RocketScreamKicadLibrary:R_0603</footprint>
+      <libsource lib="TINY-REFLOW-CONTROLLER-rescue" part="RESISTOR" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>591DC0F0</tstamp>
+    </comp>
+    <comp ref="LOGO1">
+      <value>LOGO-ROCKET-SCREAM</value>
+      <footprint>RocketScreamKicadLibrary:LOGO-ROCKET-SCREAM_Without_Text_XXXSmall</footprint>
+      <libsource lib="TINY-REFLOW-CONTROLLER-rescue" part="LOGO-ROCKET-SCREAM" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>591DC574</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>PMEG3020CPA</value>
+      <footprint>RocketScreamKicadLibrary:SOT-1016</footprint>
+      <libsource lib="TINY-REFLOW-CONTROLLER-rescue" part="DIODE_DUAL_Schottky" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>591DCC7E</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>53K6</value>
+      <footprint>RocketScreamKicadLibrary:R_0603</footprint>
+      <libsource lib="TINY-REFLOW-CONTROLLER-rescue" part="RESISTOR" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>591DD59D</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>10K</value>
+      <footprint>RocketScreamKicadLibrary:R_0603</footprint>
+      <libsource lib="TINY-REFLOW-CONTROLLER-rescue" part="RESISTOR" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>591DD9EA</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>1N4148WS</value>
+      <footprint>RocketScreamKicadLibrary:SOD-123</footprint>
+      <libsource lib="TINY-REFLOW-CONTROLLER-rescue" part="DIODE" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>591DDDE3</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>100nF</value>
+      <footprint>RocketScreamKicadLibrary:C_0603</footprint>
+      <libsource lib="TINY-REFLOW-CONTROLLER-rescue" part="CAPACITOR-CERAMIC" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>591DDED3</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>100nF</value>
+      <footprint>RocketScreamKicadLibrary:C_0603</footprint>
+      <libsource lib="TINY-REFLOW-CONTROLLER-rescue" part="CAPACITOR-CERAMIC" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>591DE06F</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>TERMINAL-BLOCK-1x2</value>
+      <footprint>RocketScreamKicadLibrary:TB-1776275-2</footprint>
+      <libsource lib="TINY-REFLOW-CONTROLLER-rescue" part="TERMINAL-BLOCK-1x2" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>592C24C6</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>TERMINAL-BLOCK-1x2</value>
+      <footprint>RocketScreamKicadLibrary:TB-1776275-2</footprint>
+      <libsource lib="TINY-REFLOW-CONTROLLER-rescue" part="TERMINAL-BLOCK-1x2" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>592C25CE</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>100nF</value>
+      <footprint>RocketScreamKicadLibrary:C_0603</footprint>
+      <libsource lib="TINY-REFLOW-CONTROLLER-rescue" part="CAPACITOR-CERAMIC" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>592C35B3</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>100nF</value>
+      <footprint>RocketScreamKicadLibrary:C_0603</footprint>
+      <libsource lib="TINY-REFLOW-CONTROLLER-rescue" part="CAPACITOR-CERAMIC" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>592C3639</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>10K</value>
+      <footprint>RocketScreamKicadLibrary:R_0603</footprint>
+      <libsource lib="TINY-REFLOW-CONTROLLER-rescue" part="RESISTOR" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>592D15B3</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>ATTINY1634R-MU</value>
+      <footprint>RocketScreamKicadLibrary:QFN-20_4x4mm</footprint>
+      <libsource lib="TINY-REFLOW-CONTROLLER-rescue" part="ATTINY1634_QFN" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>592D1DD6</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>10uF 10V X5R</value>
+      <footprint>RocketScreamKicadLibrary:C_0805</footprint>
+      <libsource lib="TINY-REFLOW-CONTROLLER-rescue" part="CAPACITOR-CERAMIC" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>592D37F5</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>10uF 10V X5R</value>
+      <footprint>RocketScreamKicadLibrary:C_0805</footprint>
+      <libsource lib="TINY-REFLOW-CONTROLLER-rescue" part="CAPACITOR-CERAMIC" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>592EDD9B</tstamp>
+    </comp>
+    <comp ref="M5">
+      <value>FIDUCIAL</value>
+      <footprint>RocketScreamKicadLibrary:FIDUCIAL-1MM</footprint>
+      <libsource lib="TINY-REFLOW-CONTROLLER-rescue" part="FIDUCIAL" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>592EE378</tstamp>
+    </comp>
+    <comp ref="M6">
+      <value>FIDUCIAL</value>
+      <footprint>RocketScreamKicadLibrary:FIDUCIAL-1MM</footprint>
+      <libsource lib="TINY-REFLOW-CONTROLLER-rescue" part="FIDUCIAL" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>592EE50A</tstamp>
+    </comp>
+    <comp ref="LOGO3">
+      <value>LOGO-ROCKET-SCREAM</value>
+      <footprint>RocketScreamKicadLibrary:LOGO-ROCKET-SCREAM_Vertical_Medium</footprint>
+      <libsource lib="TINY-REFLOW-CONTROLLER-rescue" part="LOGO-ROCKET-SCREAM" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>593E56DE</tstamp>
+    </comp>
+    <comp ref="LOGO4">
+      <value>LOGO-OSHW</value>
+      <footprint>RocketScreamKicadLibrary:LOGO-OSHW_Small</footprint>
+      <libsource lib="TINY-REFLOW-CONTROLLER-rescue" part="LOGO-OSHW" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>593E59F4</tstamp>
+    </comp>
+    <comp ref="LOGO2">
+      <value>LOGO-KICAD</value>
+      <footprint>RocketScreamKicadLibrary:LOGO-KICAD</footprint>
+      <libsource lib="TINY-REFLOW-CONTROLLER-rescue" part="LOGO-KICAD" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>593E5C14</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>MICRO-USB</value>
+      <footprint>RocketScreamKicadLibrary:MICRO-USB</footprint>
+      <libsource lib="TINY-REFLOW-CONTROLLER-rescue" part="MICRO-USB" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>597D818B</tstamp>
+    </comp>
+    <comp ref="L1">
+      <value>BLM18KG221SN1D</value>
+      <footprint>RocketScreamKicadLibrary:I_0603</footprint>
+      <libsource lib="TINY-REFLOW-CONTROLLER-rescue" part="INDUCTOR" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>597DB34F</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>10uF 10V X5R</value>
+      <footprint>RocketScreamKicadLibrary:C_0805</footprint>
+      <libsource lib="TINY-REFLOW-CONTROLLER-rescue" part="CAPACITOR-CERAMIC" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>597DD837</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="TINY-REFLOW-CONTROLLER-rescue" part="ATTINY1634_QFN">
+      <footprints>
+        <fp>QFN-20_4x4mm</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ATTINY1634_QFN</field>
+        <field name="Footprint">RocketScreamKicadLibrary:QFN-20_4x4mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="PA6/PCINT6/OC1B/ADC3" type="BiDi"/>
+        <pin num="2" name="PA5/PCINT5/OC0B/ADC2" type="BiDi"/>
+        <pin num="3" name="PA4/PCINT4/T0/ADC1" type="BiDi"/>
+        <pin num="4" name="PA3/PCINT3/T1/SNS/ADC0" type="BiDi"/>
+        <pin num="5" name="PA2/PCINT2/AIN1" type="BiDi"/>
+        <pin num="6" name="PA1/PCINT1/AIN0" type="BiDi"/>
+        <pin num="7" name="PA0/PCINT0/AREF" type="BiDi"/>
+        <pin num="8" name="GND" type="power_out"/>
+        <pin num="9" name="VCC" type="power_out"/>
+        <pin num="10" name="PC5/XTAL1/CLKI/PCINT17" type="BiDi"/>
+        <pin num="11" name="PC4/XTAL2/PCINT16" type="BiDi"/>
+        <pin num="12" name="PC3/RESET/dW/PCINT15" type="BiDi"/>
+        <pin num="13" name="PC2/ADC11/CLKO/INT0/PCINT14" type="BiDi"/>
+        <pin num="14" name="PC1/ADC10/ICP1/SCL/USCK/XCK1/PCINT13" type="BiDi"/>
+        <pin num="15" name="PC0/ADC9/OC0A/XCK0/PCINT12" type="BiDi"/>
+        <pin num="16" name="PB3/ADC8/OC1A/PCINT11" type="BiDi"/>
+        <pin num="17" name="PB2/ADC7/DO/TXD1/PCINT10" type="BiDi"/>
+        <pin num="18" name="PB1/ADC6/DI/SDA/RXD1/PCINT9" type="BiDi"/>
+        <pin num="19" name="PB0/PCINT8/TXD0/ADC5" type="BiDi"/>
+        <pin num="20" name="PA7/PCINT7/RXD0/ADC4" type="BiDi"/>
+        <pin num="21" name="GND" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="TINY-REFLOW-CONTROLLER-rescue" part="BJT-NPN">
+      <footprints>
+        <fp>SOT-23</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BJT-NPN</field>
+        <field name="Footprint">RocketScreamKicadLibrary:SOT-23</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="input"/>
+        <pin num="2" name="E" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="TINY-REFLOW-CONTROLLER-rescue" part="BUZZER">
+      <footprints>
+        <fp>HYG9605B</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">LS</field>
+        <field name="Value">BUZZER</field>
+        <field name="Footprint">RocketScreamKicadLibrary:HYG9605B</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="power_in"/>
+        <pin num="2" name="~" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="TINY-REFLOW-CONTROLLER-rescue" part="CAPACITOR-CERAMIC">
+      <footprints>
+        <fp>CAP-0402</fp>
+        <fp>CAP-0603</fp>
+        <fp>CAP-0805</fp>
+        <fp>CAP-1206</fp>
+        <fp>CAP-1210</fp>
+        <fp>CAP-0402-NS</fp>
+        <fp>C_0402</fp>
+        <fp>C_0603</fp>
+        <fp>C_0805</fp>
+        <fp>C_1206</fp>
+        <fp>C_1210</fp>
+        <fp>C_0402_RF</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CAPACITOR-CERAMIC</field>
+        <field name="Footprint">RocketScreamKicadLibrary:CAP-0603</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="TINY-REFLOW-CONTROLLER-rescue" part="CONN-HDR-1x6">
+      <footprints>
+        <fp>HDR_1x6_Pitch2.54mm</fp>
+        <fp>HDR_1x6_Pitch2.54mm_WithoutSilk</fp>
+        <fp>RCP_1x6_Pitch2.54mm_RightAngle</fp>
+        <fp>TEST-PAD_1x6_Pitch2.54mm</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">CONN-HDR-1x6</field>
+        <field name="Footprint">RocketScreamKicadLibrary:HDR_1x6_Pitch2.54mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="~" type="input"/>
+        <pin num="3" name="~" type="input"/>
+        <pin num="4" name="~" type="input"/>
+        <pin num="5" name="~" type="input"/>
+        <pin num="6" name="~" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="TINY-REFLOW-CONTROLLER-rescue" part="CONN-HDR-2x3">
+      <footprints>
+        <fp>HDR_2x3_Pitch2.54mm</fp>
+        <fp>HDR_2x3_Pitch2.54mm_WithoutSilk</fp>
+        <fp>HDR_2x3_Pitch2.54mm_SMD</fp>
+        <fp>RCP_2x3_Pitch2.54mm_SMD</fp>
+        <fp>YA-V45P-2X03</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">CONN-HDR-2x3</field>
+        <field name="Footprint">RocketScreamKicadLibrary:HDR_2x3_Pitch2.54mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="~" type="input"/>
+        <pin num="3" name="~" type="input"/>
+        <pin num="4" name="~" type="input"/>
+        <pin num="5" name="~" type="input"/>
+        <pin num="6" name="~" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="TINY-REFLOW-CONTROLLER-rescue" part="DIODE">
+      <footprints>
+        <fp>SOD-123</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">DIODE</field>
+        <field name="Footprint">RocketScreamKicadLibrary:SOD-123</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="TINY-REFLOW-CONTROLLER-rescue" part="DIODE_DUAL_Schottky">
+      <footprints>
+        <fp>SOT-1016</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">DIODE_DUAL_Schottky</field>
+        <field name="Footprint">RocketScreamKicadLibrary:SOT-1016</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+        <pin num="3" name="K" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="TINY-REFLOW-CONTROLLER-rescue" part="FIDUCIAL">
+      <footprints>
+        <fp>FIDUCIAL-1MM</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">M</field>
+        <field name="Value">FIDUCIAL</field>
+        <field name="Footprint">RocketScreamKicadLibrary:FIDUCIAL-1MM</field>
+      </fields>
+      <pins>
+        <pin num="~" name="~" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="TINY-REFLOW-CONTROLLER-rescue" part="INDUCTOR">
+      <footprints>
+        <fp>I_0603</fp>
+        <fp>NR6028</fp>
+        <fp>SRN4018</fp>
+        <fp>LQM2HP</fp>
+        <fp>SRN6045</fp>
+        <fp>I_0402</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">INDUCTOR</field>
+        <field name="Footprint">RocketScreamKicadLibrary:I_0603</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="TINY-REFLOW-CONTROLLER-rescue" part="LED-SINGLE">
+      <footprints>
+        <fp>LED-0603</fp>
+        <fp>LED_0603</fp>
+        <fp>LED-0602</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED-SINGLE</field>
+        <field name="Footprint">RocketScreamKicadLibrary:LED-0603</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="TINY-REFLOW-CONTROLLER-rescue" part="LOGO-KICAD">
+      <footprints>
+        <fp>LOGO-KICAD_Small</fp>
+        <fp>LOGO-KICAD_XSmall</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">LOGO</field>
+        <field name="Value">LOGO-KICAD</field>
+        <field name="Footprint">RocketScreamKicadLibrary:LOGO-KICAD_XSmall</field>
+      </fields>
+    </libpart>
+    <libpart lib="TINY-REFLOW-CONTROLLER-rescue" part="LOGO-OSHW">
+      <footprints>
+        <fp>LOGO-OSHW_Small</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">LOGO</field>
+        <field name="Value">LOGO-OSHW</field>
+        <field name="Footprint">RocketScreamKicadLibrary:LOGO-OSHW_Small</field>
+      </fields>
+    </libpart>
+    <libpart lib="TINY-REFLOW-CONTROLLER-rescue" part="LOGO-ROCKET-SCREAM">
+      <footprints>
+        <fp>LOGO-ROCKET-SCREAM_Horizontal_Medium</fp>
+        <fp>LOGO-ROCKET-SCREAM_Horizontal_Small</fp>
+        <fp>LOGO-ROCKET-SCREAM_Vertical_Medium</fp>
+        <fp>LOGO-ROCKET-SCREAM_Vertical_Small</fp>
+        <fp>LOGO-ROCKET-SCREAM_Without_Text_Medium</fp>
+        <fp>LOGO-ROCKET-SCREAM_Without_Text_Small</fp>
+        <fp>LOGO-ROCKET-SCREAM_Vertical_XSmall</fp>
+        <fp>LOGO-ROCKET-SCREAM_Without_Text_XSmall</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">LOGO</field>
+        <field name="Value">LOGO-ROCKET-SCREAM</field>
+        <field name="Footprint">RocketScreamKicadLibrary:LOGO-ROCKET-SCREAM_Vertical_Medium</field>
+      </fields>
+    </libpart>
+    <libpart lib="TINY-REFLOW-CONTROLLER-rescue" part="MAX31856">
+      <footprints>
+        <fp>TSSOP-14</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MAX31856</field>
+        <field name="Footprint">RocketScreamKicadLibrary:TSSOP-14</field>
+      </fields>
+      <pins>
+        <pin num="1" name="AGND" type="power_out"/>
+        <pin num="2" name="BIAS" type="output"/>
+        <pin num="3" name="T-" type="input"/>
+        <pin num="4" name="T+" type="input"/>
+        <pin num="5" name="AVDD" type="power_in"/>
+        <pin num="6" name="DNC" type="NotConnected"/>
+        <pin num="7" name="~DRDY~" type="output"/>
+        <pin num="8" name="DVDD" type="power_in"/>
+        <pin num="9" name="~CS~" type="power_in"/>
+        <pin num="10" name="SCK" type="input"/>
+        <pin num="11" name="SDO" type="output"/>
+        <pin num="12" name="SDI" type="input"/>
+        <pin num="13" name="~FAULT~" type="output"/>
+        <pin num="14" name="DGND" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="TINY-REFLOW-CONTROLLER-rescue" part="MCP1700T-XXX2E_MB">
+      <footprints>
+        <fp>SOT-89</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCP1700T-XXX2E_MB</field>
+        <field name="Footprint">RocketScreamKicadLibrary:SOT-89</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="passive"/>
+        <pin num="2" name="VIN" type="passive"/>
+        <pin num="3" name="VOUT" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="TINY-REFLOW-CONTROLLER-rescue" part="MICRO-USB">
+      <footprints>
+        <fp>MICRO-USB</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">MICRO-USB</field>
+        <field name="Footprint">RocketScreamKicadLibrary:MICRO-USB</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBUS" type="input"/>
+        <pin num="2" name="D-" type="input"/>
+        <pin num="3" name="D+" type="input"/>
+        <pin num="4" name="ID" type="input"/>
+        <pin num="5" name="GND" type="input"/>
+        <pin num="6" name="SHIELD" type="input"/>
+        <pin num="7" name="SHIELD" type="input"/>
+        <pin num="8" name="SHIELD" type="input"/>
+        <pin num="9" name="SHIELD" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="TINY-REFLOW-CONTROLLER-rescue" part="MOUNT_HOLE">
+      <footprints>
+        <fp>HOLE_NPTH_2.2MM</fp>
+        <fp>HOLE_PTH_2.2MM</fp>
+        <fp>HOLE_NPTH_3.2MM</fp>
+        <fp>HOLE_PTH_3.2MM</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">M</field>
+        <field name="Value">MOUNT_HOLE</field>
+        <field name="Footprint">RocketScreamKicadLibrary:HOLE_PTH_3.2MM</field>
+      </fields>
+    </libpart>
+    <libpart lib="TINY-REFLOW-CONTROLLER-rescue" part="POTENTIOMETER">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">POTENTIOMETER</field>
+        <field name="Footprint">RocketScreamKicadLibrary:TC33X-x</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="TINY-REFLOW-CONTROLLER-rescue" part="RESISTOR">
+      <footprints>
+        <fp>RES-0603</fp>
+        <fp>RES-0805</fp>
+        <fp>RES-0402</fp>
+        <fp>R_0402</fp>
+        <fp>R_0603</fp>
+        <fp>R_0805</fp>
+        <fp>R_1206</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">RESISTOR</field>
+        <field name="Footprint">RocketScreamKicadLibrary:RES-0603</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="TINY-REFLOW-CONTROLLER-rescue" part="RT0802A">
+      <footprints>
+        <fp>0802A-1-SMT</fp>
+        <fp>0802A-1-TH</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">RT0802A</field>
+        <field name="Footprint">RocketScreamKicadLibrary:0802A-1-SMT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VSS" type="power_out"/>
+        <pin num="2" name="VDD" type="power_in"/>
+        <pin num="3" name="VEE" type="power_in"/>
+        <pin num="4" name="RS" type="input"/>
+        <pin num="5" name="R/W" type="input"/>
+        <pin num="6" name="E" type="input"/>
+        <pin num="7" name="DB0" type="input"/>
+        <pin num="8" name="DB1" type="input"/>
+        <pin num="9" name="DB2" type="input"/>
+        <pin num="10" name="DB3" type="input"/>
+        <pin num="11" name="DB4" type="input"/>
+        <pin num="12" name="DB5" type="input"/>
+        <pin num="13" name="DB6" type="input"/>
+        <pin num="14" name="DB7" type="input"/>
+        <pin num="15" name="A" type="power_in"/>
+        <pin num="16" name="K" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="TINY-REFLOW-CONTROLLER-rescue" part="TACT-SWITCH_2Pins">
+      <footprints>
+        <fp>TS-107A</fp>
+        <fp>TS-018</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">TACT-SWITCH_2Pins</field>
+        <field name="Footprint">RocketScreamKicadLibrary:TS-107A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="TINY-REFLOW-CONTROLLER-rescue" part="TACT-SWITCH_4Pins">
+      <footprints>
+        <fp>IT-1109S</fp>
+        <fp>IT-1102W</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">TACT-SWITCH_4Pins</field>
+        <field name="Footprint">RocketScreamKicadLibrary:IT-1109S</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="4" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="TINY-REFLOW-CONTROLLER-rescue" part="TERMINAL-BLOCK-1x2">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">TERMINAL-BLOCK-1x2</field>
+        <field name="Footprint">RocketScreamKicadLibrary:TB-1776275-2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+        <pin num="2" name="2" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="TINY-REFLOW-CONTROLLER-rescue">
+      <uri>C:\Users\angmcl\Documents\PCBs\tiny-reflow-controller/TINY-REFLOW-CONTROLLER-rescue.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="GND">
+      <node ref="U4" pin="16"/>
+      <node ref="SW2" pin="3"/>
+      <node ref="SW2" pin="4"/>
+      <node ref="SW1" pin="1"/>
+      <node ref="SW1" pin="2"/>
+      <node ref="SW3" pin="2"/>
+      <node ref="R1" pin="3"/>
+      <node ref="U2" pin="1"/>
+      <node ref="C12" pin="2"/>
+      <node ref="U4" pin="1"/>
+      <node ref="J5" pin="6"/>
+      <node ref="U3" pin="1"/>
+      <node ref="U3" pin="14"/>
+      <node ref="U4" pin="5"/>
+      <node ref="C6" pin="2"/>
+      <node ref="C8" pin="2"/>
+      <node ref="J4" pin="6"/>
+      <node ref="J3" pin="5"/>
+      <node ref="C9" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="U1" pin="21"/>
+      <node ref="C1" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="Q2" pin="2"/>
+      <node ref="Q1" pin="2"/>
+      <node ref="C11" pin="2"/>
+      <node ref="C10" pin="1"/>
+      <node ref="D1" pin="1"/>
+      <node ref="U1" pin="8"/>
+    </net>
+    <net code="2" name="VUSB">
+      <node ref="J5" pin="4"/>
+      <node ref="D2" pin="2"/>
+    </net>
+    <net code="3" name="VBUS">
+      <node ref="C4" pin="1"/>
+      <node ref="U2" pin="2"/>
+      <node ref="D2" pin="3"/>
+    </net>
+    <net code="4" name="3V3">
+      <node ref="U2" pin="3"/>
+      <node ref="U1" pin="9"/>
+      <node ref="LS1" pin="1"/>
+      <node ref="R1" pin="1"/>
+      <node ref="C10" pin="2"/>
+      <node ref="C9" pin="1"/>
+      <node ref="U3" pin="5"/>
+      <node ref="R9" pin="2"/>
+      <node ref="D3" pin="1"/>
+      <node ref="C6" pin="1"/>
+      <node ref="J2" pin="1"/>
+      <node ref="C8" pin="1"/>
+      <node ref="C11" pin="1"/>
+      <node ref="U4" pin="2"/>
+      <node ref="R10" pin="1"/>
+      <node ref="J4" pin="2"/>
+      <node ref="U4" pin="15"/>
+      <node ref="C5" pin="1"/>
+      <node ref="R4" pin="1"/>
+      <node ref="U3" pin="8"/>
+    </net>
+    <net code="5" name="/D16">
+      <node ref="U1" pin="18"/>
+      <node ref="U3" pin="11"/>
+      <node ref="J4" pin="4"/>
+    </net>
+    <net code="6" name="/D15">
+      <node ref="U3" pin="12"/>
+      <node ref="U1" pin="17"/>
+      <node ref="J4" pin="1"/>
+    </net>
+    <net code="7" name="/RST">
+      <node ref="J4" pin="5"/>
+      <node ref="U1" pin="12"/>
+      <node ref="SW3" pin="1"/>
+      <node ref="C7" pin="2"/>
+      <node ref="D3" pin="2"/>
+      <node ref="R9" pin="1"/>
+    </net>
+    <net code="8" name="/D12">
+      <node ref="U1" pin="14"/>
+      <node ref="U3" pin="10"/>
+      <node ref="J4" pin="3"/>
+    </net>
+    <net code="9" name="/TC+">
+      <node ref="R3" pin="1"/>
+      <node ref="J1" pin="2"/>
+    </net>
+    <net code="10" name="/TC-">
+      <node ref="J1" pin="1"/>
+      <node ref="R2" pin="1"/>
+      <node ref="U3" pin="2"/>
+    </net>
+    <net code="11" name="Net-(C2-Pad1)">
+      <node ref="R3" pin="2"/>
+      <node ref="U3" pin="4"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C2" pin="1"/>
+    </net>
+    <net code="12" name="Net-(C1-Pad1)">
+      <node ref="R2" pin="2"/>
+      <node ref="C1" pin="1"/>
+      <node ref="C3" pin="1"/>
+      <node ref="U3" pin="3"/>
+    </net>
+    <net code="13" name="/D2">
+      <node ref="U3" pin="9"/>
+      <node ref="U1" pin="1"/>
+      <node ref="R10" pin="2"/>
+    </net>
+    <net code="14" name="/D13">
+      <node ref="R6" pin="2"/>
+      <node ref="U1" pin="15"/>
+    </net>
+    <net code="15" name="Net-(R1-Pad2)">
+      <node ref="U4" pin="3"/>
+      <node ref="R1" pin="2"/>
+    </net>
+    <net code="16" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2"/>
+      <node ref="R6" pin="1"/>
+    </net>
+    <net code="17" name="Net-(J5-Pad5)">
+      <node ref="J5" pin="5"/>
+    </net>
+    <net code="18" name="/D1">
+      <node ref="J5" pin="3"/>
+      <node ref="U1" pin="20"/>
+    </net>
+    <net code="19" name="/D0">
+      <node ref="U1" pin="19"/>
+      <node ref="J5" pin="2"/>
+    </net>
+    <net code="20" name="Net-(C7-Pad1)">
+      <node ref="C7" pin="1"/>
+      <node ref="J5" pin="1"/>
+    </net>
+    <net code="21" name="Net-(J3-Pad8)">
+      <node ref="J3" pin="8"/>
+    </net>
+    <net code="22" name="5V0">
+      <node ref="C12" pin="1"/>
+      <node ref="L1" pin="2"/>
+      <node ref="D2" pin="1"/>
+    </net>
+    <net code="23" name="Net-(J3-Pad1)">
+      <node ref="J3" pin="1"/>
+      <node ref="L1" pin="1"/>
+    </net>
+    <net code="24" name="Net-(J3-Pad4)">
+      <node ref="J3" pin="4"/>
+    </net>
+    <net code="25" name="Net-(J3-Pad3)">
+      <node ref="J3" pin="3"/>
+    </net>
+    <net code="26" name="Net-(J3-Pad2)">
+      <node ref="J3" pin="2"/>
+    </net>
+    <net code="27" name="Net-(J3-Pad6)">
+      <node ref="J3" pin="6"/>
+    </net>
+    <net code="28" name="Net-(J3-Pad7)">
+      <node ref="J3" pin="7"/>
+    </net>
+    <net code="29" name="Net-(J3-Pad9)">
+      <node ref="J3" pin="9"/>
+    </net>
+    <net code="30" name="Net-(M5-Pad~)">
+      <node ref="M5" pin="~"/>
+    </net>
+    <net code="31" name="/D11">
+      <node ref="U3" pin="13"/>
+      <node ref="U1" pin="13"/>
+    </net>
+    <net code="33" name="Net-(M6-Pad~)">
+      <node ref="M6" pin="~"/>
+    </net>
+    <net code="34" name="Net-(U3-Pad7)">
+      <node ref="U3" pin="7"/>
+    </net>
+    <net code="35" name="/D14">
+      <node ref="R7" pin="1"/>
+      <node ref="U1" pin="16"/>
+    </net>
+    <net code="36" name="/D3">
+      <node ref="U1" pin="2"/>
+      <node ref="R8" pin="1"/>
+    </net>
+    <net code="37" name="Net-(LS1-Pad2)">
+      <node ref="LS1" pin="2"/>
+      <node ref="Q1" pin="3"/>
+    </net>
+    <net code="38" name="Net-(Q1-Pad1)">
+      <node ref="R7" pin="2"/>
+      <node ref="Q1" pin="1"/>
+    </net>
+    <net code="39" name="Net-(J2-Pad2)">
+      <node ref="J2" pin="2"/>
+      <node ref="Q2" pin="3"/>
+    </net>
+    <net code="40" name="Net-(Q2-Pad1)">
+      <node ref="Q2" pin="1"/>
+      <node ref="R8" pin="2"/>
+    </net>
+    <net code="41" name="Net-(U3-Pad6)">
+      <node ref="U3" pin="6"/>
+    </net>
+    <net code="42" name="Net-(U4-Pad9)">
+      <node ref="U4" pin="9"/>
+    </net>
+    <net code="43" name="Net-(U4-Pad8)">
+      <node ref="U4" pin="8"/>
+    </net>
+    <net code="44" name="Net-(U4-Pad7)">
+      <node ref="U4" pin="7"/>
+    </net>
+    <net code="45" name="/D9">
+      <node ref="U4" pin="6"/>
+      <node ref="U1" pin="10"/>
+    </net>
+    <net code="46" name="/D10">
+      <node ref="U4" pin="4"/>
+      <node ref="U1" pin="11"/>
+    </net>
+    <net code="47" name="/D5">
+      <node ref="U4" pin="14"/>
+      <node ref="U1" pin="4"/>
+    </net>
+    <net code="48" name="/D6">
+      <node ref="U1" pin="5"/>
+      <node ref="U4" pin="13"/>
+    </net>
+    <net code="49" name="/D7">
+      <node ref="U4" pin="12"/>
+      <node ref="U1" pin="6"/>
+    </net>
+    <net code="50" name="/D8">
+      <node ref="U4" pin="11"/>
+      <node ref="U1" pin="7"/>
+    </net>
+    <net code="51" name="Net-(U4-Pad10)">
+      <node ref="U4" pin="10"/>
+    </net>
+    <net code="52" name="/D4">
+      <node ref="U1" pin="3"/>
+      <node ref="R4" pin="2"/>
+      <node ref="R5" pin="1"/>
+      <node ref="SW1" pin="3"/>
+      <node ref="SW1" pin="4"/>
+    </net>
+    <net code="53" name="Net-(R5-Pad2)">
+      <node ref="R5" pin="2"/>
+      <node ref="SW2" pin="1"/>
+      <node ref="SW2" pin="2"/>
+    </net>
+  </nets>
+</export>

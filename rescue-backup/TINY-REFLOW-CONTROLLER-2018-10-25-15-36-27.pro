@@ -1,4 +1,4 @@
-update=25/10/2018 3:38:19 p.m.
+update=25/10/2018 3:01:39 p.m.
 version=1
 last_client=kicad
 [pcbnew]
@@ -37,4 +37,6 @@ ERC_TestSimilarLabels=1
 version=1
 [eeschema]
 version=1
-LibDir=
+LibDir=C:/Users/angmcl/Documents/PCBs/RocketScreamKicadLibrary
+[eeschema/libraries]
+LibName1=RocketScreamKicadLibrary
